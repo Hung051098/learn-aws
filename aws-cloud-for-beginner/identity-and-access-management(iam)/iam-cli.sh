@@ -15,7 +15,7 @@ aws s3 ls <s3://path>
 
 #Using cli with MFA
 #Step 1 issue temporary token
-aws sts get-session-token --serial-number arn:aws:iam::123456789012:mfa/developer-01-iphone --token-code 123456
+aws sts get-session-token --serial-number arn:aws:iam::788364686470:mfa/fbvn_vnlevh --token-code 123456
 
 #Step 2: config credential file.
 "C:\Users\<your user name>\.aws\credentials"
